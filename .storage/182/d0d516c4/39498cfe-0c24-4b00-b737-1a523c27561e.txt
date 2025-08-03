@@ -1,0 +1,6 @@
+$ find /workspace/shadcn-ui/src -type f -name "*transaction*" | xargs ls -la
+
+-rw-r--r-- 1 root root  4539 Aug  1 22:15 /workspace/shadcn-ui/src/components/dashboard/recent-transactions.tsx
+-rw-r--r-- 1 root root 18893 Aug  2 08:46 /workspace/shadcn-ui/src/components/transactions/transaction-details.tsx
+-rw-r--r-- 1 root root 28224 Aug  3 09:48 /workspace/shadcn-ui/src/components/transactions/transaction-form.tsx
+-rw-r--r-- 1 root root  9758 Aug  2 08:26 /workspace/shadcn-ui/src/components/transactions/transaction-table.tsx

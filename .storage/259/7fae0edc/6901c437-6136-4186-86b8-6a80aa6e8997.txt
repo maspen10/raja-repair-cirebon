@@ -1,0 +1,298 @@
+$ ls -la /workspace/shadcn-ui
+total 27917
+drwxr-xr-x 146 root root  1437696 Aug  3 10:44 .
+drwxr-xr-x 764 root root 25747456 Aug  3 10:58 ..
+-rw-r--r--   1 root root      253 Jun 16 08:19 .gitignore
+drwxr-xr-x   3 root root     8192 Jun 16 08:19 .mgx
+-rw-r--r--   1 root root     1138 Jun 16 08:19 README.md
+-rw-r--r--   1 root root      414 Jun 16 08:19 components.json
+-rw-r--r--   1 root root      789 Jun 16 08:19 eslint.config.js
+-rw-r--r--   1 root root     1000 Aug  3 10:27 index.html
+drwxr-xr-x 342 root root    12288 Aug  3 10:44 node_modules
+-rw-r--r--   1 root root   302700 Aug  3 10:34 package-lock.json
+-rw-r--r--   1 root root     2826 Aug  3 10:34 package.json
+-rw-r--r--   1 root root   212220 Aug  3 10:44 pnpm-lock.yaml
+-rw-r--r--   1 root root       80 Jun 16 08:19 postcss.config.js
+drwxr-xr-x   7 root root   106496 Aug  3 10:09 public
+-rw-r--r--   1 root root      534 Aug  3 10:34 server.js
+-rw-r--r--   1 root root      802 Aug  3 10:34 server.mjs
+drwxr-xr-x 119 root root   737280 Jun 16 08:19 src
+-rw-r--r--   1 root root     2836 Jun 16 08:19 tailwind.config.ts
+-rw-r--r--   1 root root      818 Jun 16 08:19 template_config.json
+-rw-r--r--   1 root root      652 Jun 16 08:19 tsconfig.app.json
+-rw-r--r--   1 root root      381 Jun 16 08:19 tsconfig.json
+-rw-r--r--   1 root root      481 Jun 16 08:19 tsconfig.node.json
+-rw-r--r--   1 root root     1067 Aug  3 10:27 vite.config.ts
+$ cd /workspace/shadcn-ui && git config --global user.name "Raja Repair" && git config --global user.email "rajarepair@example.com" && git init && git add . && git status
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /workspace/shadcn-ui/.git/
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   .mgx/config.yaml
+	new file:   README.md
+	new file:   components.json
+	new file:   eslint.config.js
+	new file:   index.html
+	new file:   package-lock.json
+	new file:   package.json
+	new file:   pnpm-lock.yaml
+	new file:   postcss.config.js
+	new file:   public/_redirects
+	new file:   public/favicon.svg
+	new file:   public/images/PaymentProof.jpg
+	new file:   public/robots.txt
+	new file:   server.js
+	new file:   server.mjs
+	new file:   src/App.css
+	new file:   src/App.tsx
+	new file:   src/components/auth/login-form.tsx
+	new file:   src/components/cart/cart-drawer.tsx
+	new file:   src/components/categories/category-form.tsx
+	new file:   src/components/categories/category-table.tsx
+	new file:   src/components/dashboard/low-stock-alert.tsx
+	new file:   src/components/dashboard/recent-transactions.tsx
+	new file:   src/components/dashboard/stats-card.tsx
+	new file:   src/components/layout/admin-layout.tsx
+	new file:   src/components/layout/main-layout.tsx
+	new file:   src/components/layout/user-layout.tsx
+	new file:   src/components/products/product-form.tsx
+	new file:   src/components/products/product-import.tsx
+	new file:   src/components/products/product-table.tsx
+	new file:   src/components/settings/delivery-method-form.tsx
+	new file:   src/components/settings/delivery-method-table.tsx
+	new file:   src/components/settings/payment-method-form.tsx
+	new file:   src/components/settings/payment-method-table.tsx
+	new file:   src/components/settings/settings-form.tsx
+	new file:   src/components/transactions/transaction-details.tsx
+	new file:   src/components/transactions/transaction-form.tsx
+	new file:   src/components/transactions/transaction-table.tsx
+	new file:   src/components/ui/accordion.tsx
+	new file:   src/components/ui/alert-dialog.tsx
+	new file:   src/components/ui/alert.tsx
+	new file:   src/components/ui/aspect-ratio.tsx
+	new file:   src/components/ui/avatar.tsx
+	new file:   src/components/ui/badge.tsx
+	new file:   src/components/ui/breadcrumb.tsx
+	new file:   src/components/ui/button.tsx
+	new file:   src/components/ui/calendar.tsx
+	new file:   src/components/ui/card.tsx
+	new file:   src/components/ui/carousel.tsx
+	new file:   src/components/ui/chart.tsx
+	new file:   src/components/ui/checkbox.tsx
+	new file:   src/components/ui/collapsible.tsx
+	new file:   src/components/ui/command.tsx
+	new file:   src/components/ui/context-menu.tsx
+	new file:   src/components/ui/dialog.tsx
+	new file:   src/components/ui/drawer.tsx
+	new file:   src/components/ui/dropdown-menu.tsx
+	new file:   src/components/ui/form.tsx
+	new file:   src/components/ui/hover-card.tsx
+	new file:   src/components/ui/input-otp.tsx
+	new file:   src/components/ui/input.tsx
+	new file:   src/components/ui/label.tsx
+	new file:   src/components/ui/menubar.tsx
+	new file:   src/components/ui/navigation-menu.tsx
+	new file:   src/components/ui/pagination.tsx
+	new file:   src/components/ui/popover.tsx
+	new file:   src/components/ui/progress.tsx
+	new file:   src/components/ui/radio-group.tsx
+	new file:   src/components/ui/resizable.tsx
+	new file:   src/components/ui/scroll-area.tsx
+	new file:   src/components/ui/select.tsx
+	new file:   src/components/ui/separator.tsx
+	new file:   src/components/ui/sheet.tsx
+	new file:   src/components/ui/sidebar.tsx
+	new file:   src/components/ui/skeleton.tsx
+	new file:   src/components/ui/slider.tsx
+	new file:   src/components/ui/sonner.tsx
+	new file:   src/components/ui/switch.tsx
+	new file:   src/components/ui/table.tsx
+	new file:   src/components/ui/tabs.tsx
+	new file:   src/components/ui/textarea.tsx
+	new file:   src/components/ui/toast.tsx
+	new file:   src/components/ui/toaster.tsx
+	new file:   src/components/ui/toggle-group.tsx
+	new file:   src/components/ui/toggle.tsx
+	new file:   src/components/ui/tooltip.tsx
+	new file:   src/components/ui/use-toast.ts
+	new file:   src/components/users/user-form.tsx
+	new file:   src/components/users/user-profile.tsx
+	new file:   src/components/users/user-table.tsx
+	new file:   src/hooks/use-mobile.tsx
+	new file:   src/hooks/use-toast.ts
+	new file:   src/index.css
+	new file:   src/lib/storage.ts
+	new file:   src/lib/types.ts
+	new file:   src/lib/utils.ts
+	new file:   src/main.tsx
+	new file:   src/pages/Index.tsx
+	new file:   src/pages/Login.tsx
+	new file:   src/pages/NotFound.tsx
+	new file:   src/pages/admin/Categories.tsx
+	new file:   src/pages/admin/Dashboard.tsx
+	new file:   src/pages/admin/Products.tsx
+	new file:   src/pages/admin/Settings.tsx
+	new file:   src/pages/admin/TransactionsIn.tsx
+	new file:   src/pages/admin/TransactionsOut.tsx
+	new file:   src/pages/admin/Users.tsx
+	new file:   src/pages/user/Checkout.tsx
+	new file:   src/pages/user/Dashboard.tsx
+	new file:   src/pages/user/History.tsx
+	new file:   src/pages/user/Order.tsx
+	new file:   src/pages/user/OrderDetail.tsx
+	new file:   src/pages/user/Orders.tsx
+	new file:   src/pages/user/Products.tsx
+	new file:   src/pages/user/Profile.tsx
+	new file:   src/vite-env.d.ts
+	new file:   tailwind.config.ts
+	new file:   template_config.json
+	new file:   tsconfig.app.json
+	new file:   tsconfig.json
+	new file:   tsconfig.node.json
+	new file:   vite.config.ts
+
+$ git branch -m main && git commit -m "Initial commit - Raja Repair Cirebon application" && git remote add origin https://github.com/maspen10/raja-repair-cirebon.git
+
+[main (root-commit) 14f3dee] Initial commit - Raja Repair Cirebon application
+ 123 files changed, 26005 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mgx/config.yaml
+ create mode 100644 README.md
+ create mode 100644 components.json
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 pnpm-lock.yaml
+ create mode 100644 postcss.config.js
+ create mode 100644 public/_redirects
+ create mode 100644 public/favicon.svg
+ create mode 100644 public/images/PaymentProof.jpg
+ create mode 100644 public/robots.txt
+ create mode 100644 server.js
+ create mode 100644 server.mjs
+ create mode 100644 src/App.css
+ create mode 100644 src/App.tsx
+ create mode 100644 src/components/auth/login-form.tsx
+ create mode 100644 src/components/cart/cart-drawer.tsx
+ create mode 100644 src/components/categories/category-form.tsx
+ create mode 100644 src/components/categories/category-table.tsx
+ create mode 100644 src/components/dashboard/low-stock-alert.tsx
+ create mode 100644 src/components/dashboard/recent-transactions.tsx
+ create mode 100644 src/components/dashboard/stats-card.tsx
+ create mode 100644 src/components/layout/admin-layout.tsx
+ create mode 100644 src/components/layout/main-layout.tsx
+ create mode 100644 src/components/layout/user-layout.tsx
+ create mode 100644 src/components/products/product-form.tsx
+ create mode 100644 src/components/products/product-import.tsx
+ create mode 100644 src/components/products/product-table.tsx
+ create mode 100644 src/components/settings/delivery-method-form.tsx
+ create mode 100644 src/components/settings/delivery-method-table.tsx
+ create mode 100644 src/components/settings/payment-method-form.tsx
+ create mode 100644 src/components/settings/payment-method-table.tsx
+ create mode 100644 src/components/settings/settings-form.tsx
+ create mode 100644 src/components/transactions/transaction-details.tsx
+ create mode 100644 src/components/transactions/transaction-form.tsx
+ create mode 100644 src/components/transactions/transaction-table.tsx
+ create mode 100644 src/components/ui/accordion.tsx
+ create mode 100644 src/components/ui/alert-dialog.tsx
+ create mode 100644 src/components/ui/alert.tsx
+ create mode 100644 src/components/ui/aspect-ratio.tsx
+ create mode 100644 src/components/ui/avatar.tsx
+ create mode 100644 src/components/ui/badge.tsx
+ create mode 100644 src/components/ui/breadcrumb.tsx
+ create mode 100644 src/components/ui/button.tsx
+ create mode 100644 src/components/ui/calendar.tsx
+ create mode 100644 src/components/ui/card.tsx
+ create mode 100644 src/components/ui/carousel.tsx
+ create mode 100644 src/components/ui/chart.tsx
+ create mode 100644 src/components/ui/checkbox.tsx
+ create mode 100644 src/components/ui/collapsible.tsx
+ create mode 100644 src/components/ui/command.tsx
+ create mode 100644 src/components/ui/context-menu.tsx
+ create mode 100644 src/components/ui/dialog.tsx
+ create mode 100644 src/components/ui/drawer.tsx
+ create mode 100644 src/components/ui/dropdown-menu.tsx
+ create mode 100644 src/components/ui/form.tsx
+ create mode 100644 src/components/ui/hover-card.tsx
+ create mode 100644 src/components/ui/input-otp.tsx
+ create mode 100644 src/components/ui/input.tsx
+ create mode 100644 src/components/ui/label.tsx
+ create mode 100644 src/components/ui/menubar.tsx
+ create mode 100644 src/components/ui/navigation-menu.tsx
+ create mode 100644 src/components/ui/pagination.tsx
+ create mode 100644 src/components/ui/popover.tsx
+ create mode 100644 src/components/ui/progress.tsx
+ create mode 100644 src/components/ui/radio-group.tsx
+ create mode 100644 src/components/ui/resizable.tsx
+ create mode 100644 src/components/ui/scroll-area.tsx
+ create mode 100644 src/components/ui/select.tsx
+ create mode 100644 src/components/ui/separator.tsx
+ create mode 100644 src/components/ui/sheet.tsx
+ create mode 100644 src/components/ui/sidebar.tsx
+ create mode 100644 src/components/ui/skeleton.tsx
+ create mode 100644 src/components/ui/slider.tsx
+ create mode 100644 src/components/ui/sonner.tsx
+ create mode 100644 src/components/ui/switch.tsx
+ create mode 100644 src/components/ui/table.tsx
+ create mode 100644 src/components/ui/tabs.tsx
+ create mode 100644 src/components/ui/textarea.tsx
+ create mode 100644 src/components/ui/toast.tsx
+ create mode 100644 src/components/ui/toaster.tsx
+ create mode 100644 src/components/ui/toggle-group.tsx
+ create mode 100644 src/components/ui/toggle.tsx
+ create mode 100644 src/components/ui/tooltip.tsx
+ create mode 100644 src/components/ui/use-toast.ts
+ create mode 100644 src/components/users/user-form.tsx
+ create mode 100644 src/components/users/user-profile.tsx
+ create mode 100644 src/components/users/user-table.tsx
+ create mode 100644 src/hooks/use-mobile.tsx
+ create mode 100644 src/hooks/use-toast.ts
+ create mode 100644 src/index.css
+ create mode 100644 src/lib/storage.ts
+ create mode 100644 src/lib/types.ts
+ create mode 100644 src/lib/utils.ts
+ create mode 100644 src/main.tsx
+ create mode 100644 src/pages/Index.tsx
+ create mode 100644 src/pages/Login.tsx
+ create mode 100644 src/pages/NotFound.tsx
+ create mode 100644 src/pages/admin/Categories.tsx
+ create mode 100644 src/pages/admin/Dashboard.tsx
+ create mode 100644 src/pages/admin/Products.tsx
+ create mode 100644 src/pages/admin/Settings.tsx
+ create mode 100644 src/pages/admin/TransactionsIn.tsx
+ create mode 100644 src/pages/admin/TransactionsOut.tsx
+ create mode 100644 src/pages/admin/Users.tsx
+ create mode 100644 src/pages/user/Checkout.tsx
+ create mode 100644 src/pages/user/Dashboard.tsx
+ create mode 100644 src/pages/user/History.tsx
+ create mode 100644 src/pages/user/Order.tsx
+ create mode 100644 src/pages/user/OrderDetail.tsx
+ create mode 100644 src/pages/user/Orders.tsx
+ create mode 100644 src/pages/user/Products.tsx
+ create mode 100644 src/pages/user/Profile.tsx
+ create mode 100644 src/vite-env.d.ts
+ create mode 100644 tailwind.config.ts
+ create mode 100644 template_config.json
+ create mode 100644 tsconfig.app.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.node.json
+ create mode 100644 vite.config.ts
+$ git push -u origin main
+
+fatal: could not read Username for 'https://github.com': No such device or address

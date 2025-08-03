@@ -1,0 +1,7 @@
+$ ls -la src/components/transactions
+total 661
+drwxr-xr-x  5 root root  65536 Aug  1 22:14 .
+drwxr-xr-x 85 root root 552960 Aug  3 09:00 ..
+-rw-r--r--  1 root root  18893 Aug  2 08:46 transaction-details.tsx
+-rw-r--r--  1 root root  28224 Aug  3 09:48 transaction-form.tsx
+-rw-r--r--  1 root root   9758 Aug  2 08:26 transaction-table.tsx

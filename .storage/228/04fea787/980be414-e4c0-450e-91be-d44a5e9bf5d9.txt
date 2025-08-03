@@ -1,0 +1,23 @@
+$ cd /workspace/shadcn-ui && cat src/main.tsx
+import { createRoot } from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
+
+createRoot(document.getElementById('root')!).render(<App />);
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 2082 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.24 kB │ gzip:   0.53 kB
+dist/assets/index-BaG5KtZC.css   63.79 kB │ gzip:  11.33 kB
+dist/assets/ui-DMISnfnY.js       34.99 kB │ gzip:  12.21 kB
+dist/assets/vendor-Cx9q6pQ5.js  162.12 kB │ gzip:  52.90 kB
+dist/assets/index-jYkYNd60.js   398.71 kB │ gzip: 108.92 kB
+✓ built in 6.17s

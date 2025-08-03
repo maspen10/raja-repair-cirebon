@@ -1,0 +1,12 @@
+$ cd /workspace && ls -la
+total 336788
+drwxr-xr-x 12421 root root 163864576 Aug  3 10:23 .
+drwxr-xr-x     1 root root        97 Aug  3 10:22 ..
+-rw-r--r--     1 root root   4941312 Aug  3 10:14 .MGXEnv.json
+drwxr-xr-x     3 root root      8192 Aug  1 22:18 .MGXTools
+drwxr-xr-x   539 root root  11096064 Aug  3 10:11 .git
+-rw-r--r--     1 root root      1472 Aug  1 22:08 .gitattributes
+-rw-r--r--     1 root root       476 Aug  1 22:08 .gitignore
+-rw-r--r--     1 root root      3619 Aug  3 10:23 .timeline.json
+-rw-r--r--     1 root root      4116 Aug  3 10:09 .wiki.md
+drwxr-xr-x 13072 root root 164950016 Aug  3 10:14 shadcn-ui

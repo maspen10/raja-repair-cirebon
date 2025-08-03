@@ -1,0 +1,25 @@
+$ ls -la /workspace/shadcn-ui
+total 27917
+drwxr-xr-x 146 root root  1437696 Aug  3 10:44 .
+drwxr-xr-x 764 root root 25747456 Aug  3 10:58 ..
+-rw-r--r--   1 root root      253 Jun 16 08:19 .gitignore
+drwxr-xr-x   3 root root     8192 Jun 16 08:19 .mgx
+-rw-r--r--   1 root root     1138 Jun 16 08:19 README.md
+-rw-r--r--   1 root root      414 Jun 16 08:19 components.json
+-rw-r--r--   1 root root      789 Jun 16 08:19 eslint.config.js
+-rw-r--r--   1 root root     1000 Aug  3 10:27 index.html
+drwxr-xr-x 342 root root    12288 Aug  3 10:44 node_modules
+-rw-r--r--   1 root root   302700 Aug  3 10:34 package-lock.json
+-rw-r--r--   1 root root     2826 Aug  3 10:34 package.json
+-rw-r--r--   1 root root   212220 Aug  3 10:44 pnpm-lock.yaml
+-rw-r--r--   1 root root       80 Jun 16 08:19 postcss.config.js
+drwxr-xr-x   7 root root   106496 Aug  3 10:09 public
+-rw-r--r--   1 root root      534 Aug  3 10:34 server.js
+-rw-r--r--   1 root root      802 Aug  3 10:34 server.mjs
+drwxr-xr-x 119 root root   737280 Jun 16 08:19 src
+-rw-r--r--   1 root root     2836 Jun 16 08:19 tailwind.config.ts
+-rw-r--r--   1 root root      818 Jun 16 08:19 template_config.json
+-rw-r--r--   1 root root      652 Jun 16 08:19 tsconfig.app.json
+-rw-r--r--   1 root root      381 Jun 16 08:19 tsconfig.json
+-rw-r--r--   1 root root      481 Jun 16 08:19 tsconfig.node.json
+-rw-r--r--   1 root root     1067 Aug  3 10:27 vite.config.ts

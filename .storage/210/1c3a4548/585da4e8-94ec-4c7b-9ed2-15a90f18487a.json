@@ -1,0 +1,1 @@
+{"tasks": [{"task_id": "1", "dependent_task_ids": [], "instruction": "Fix the website accessibility issues on mobile browsers and ensure cross-device compatibility.", "task_type": "general", "code": "", "result": "", "is_success": false, "is_finished": false, "assignee": "Alex", "start_at": 1754241817.428209}], "current_task_id": "1"}
